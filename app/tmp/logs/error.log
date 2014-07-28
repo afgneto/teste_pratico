@@ -1187,3 +1187,545 @@ Stack Trace:
 #3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-07-28 13:40:13 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\teste_pratico\app\View\Compromissos\editar.ctp, line 6]
+2014-07-28 13:40:13 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /teste_pratico/compromissos/editar/1
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:03:04 Error: Fatal Error (1): Using $this when not in object context in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 66]
+2014-07-28 15:03:04 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', 'C:\\wamp\\www\\tes...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', 'C:\\wamp\\www\\tes...', 66, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', 'C:\\wamp\\www\\tes...', 66, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:04:37 Error: Fatal Error (4): syntax error, unexpected '$usuarios' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 63]
+2014-07-28 15:04:37 Error: [FatalErrorException] syntax error, unexpected '$usuarios' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 63, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 63, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:04:40 Error: Fatal Error (4): syntax error, unexpected '$usuarios' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 63]
+2014-07-28 15:04:40 Error: [FatalErrorException] syntax error, unexpected '$usuarios' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 63, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 63, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:05:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 12]
+2014-07-28 15:05:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:06:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 12]
+2014-07-28 15:06:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:06:32 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 12]
+2014-07-28 15:06:32 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:07:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 12]
+2014-07-28 15:07:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:07:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 12]
+2014-07-28 15:07:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:12:44 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 12]
+2014-07-28 15:12:44 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:12:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 12]
+2014-07-28 15:12:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 12, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:26:38 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\wamp\www\teste_pratico\app\Model\Compromisso.php, line 7]
+2014-07-28 15:26:38 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:27:17 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\wamp\www\teste_pratico\app\Model\Compromisso.php, line 7]
+2014-07-28 15:27:17 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 15:28:53 Error: Fatal Error (4): syntax error, unexpected ''cla9ssName'' (T_CONSTANT_ENCAPSED_STRING), expecting '(' in [C:\wamp\www\teste_pratico\app\Model\Compromisso.php, line 7]
+2014-07-28 15:28:53 Error: [FatalErrorException] syntax error, unexpected ''cla9ssName'' (T_CONSTANT_ENCAPSED_STRING), expecting '('
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 7, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:14:55 Error: Fatal Error (4): syntax error, unexpected '09' (T_LNUMBER) in [C:\wamp\www\teste_pratico\app\Controller\AppController.php, line 39]
+2014-07-28 16:14:55 Error: [FatalErrorException] syntax error, unexpected '09' (T_LNUMBER)
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 39, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 39, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:15:32 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\teste_pratico\app\Controller\AppController.php, line 79]
+2014-07-28 16:15:32 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /teste_pratico/compromissos
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 79, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 79, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:15:51 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\wamp\www\teste_pratico\app\Controller\UsuariosController.php, line 18]
+2014-07-28 16:15:51 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 18, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 18, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:17:51 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\wamp\www\teste_pratico\app\Controller\UsuariosController.php, line 18]
+2014-07-28 16:17:51 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 18, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 18, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:18:14 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\wamp\www\teste_pratico\app\Controller\UsuariosController.php, line 16]
+2014-07-28 16:18:14 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 16, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 16, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:18:33 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-28 16:19:02 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\wamp\www\teste_pratico\app\Controller\UsuariosController.php, line 17]
+2014-07-28 16:19:02 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 17, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 17, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:19:39 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Users\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:21:06 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Users\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:21:08 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Users\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:21:39 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Users\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:21:41 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Users\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:22:34 Error: Fatal Error (64): Cannot redeclare UsuariosController::login() in [C:\wamp\www\teste_pratico\app\Controller\UsuariosController.php, line 10]
+2014-07-28 16:22:34 Error: [FatalErrorException] Cannot redeclare UsuariosController::login()
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\wamp\\www\\tes...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\wamp\\www\\tes...', 10, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\wamp\\www\\tes...', 10, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:22:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\UsuariosController.php, line 8]
+2014-07-28 16:22:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 8, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 8, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 16:24:04 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:24:53 Error: [MissingActionException] Action CompromissosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 16:27:14 Error: [MissingActionException] Action CompromissosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 16:48:54 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:51:31 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:52:25 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:52:26 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:52:28 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:52:28 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:52:29 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:52:29 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:52:30 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 16:52:53 Error: [MissingActionException] Action CompromissosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 17:09:44 Error: [MissingActionException] Action CompromissosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 17:10:23 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 14]
+2014-07-28 17:10:23 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 14, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 14, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 17:10:49 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Compromissos\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Compromissos\\login.ctp',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 17:15:43 Error: [MissingActionException] Action UsuariosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 17:22:20 Error: [MissingActionException] Action CompromissosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 17:22:22 Error: [MissingActionException] Action CompromissosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 17:22:26 Error: [MissingActionException] Action CompromissosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 17:23:32 Error: [MissingActionException] Action CompromissosController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'login',
+)
+Request URL: /teste_pratico/compromissos/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 17:25:16 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\usuarios\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\usuarios\\login.ctp',
+)
+Request URL: /teste_pratico/usuarios/login
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

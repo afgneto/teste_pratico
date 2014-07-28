@@ -1,0 +1,6 @@
+<?
+
+class Usuario extends AppModel {
+	
+
+}

@@ -2,6 +2,15 @@
 
 class CompromissosController extends AppController {
 
+ public function login() { }
+
+    public function logout() {
+        // Redireciona o usuário para o action do logoutRedirect
+        $this->redirect($this->Auth->logout());
+    }
+
+
+
     public $helpers = array("Form", "Html");
 
     public function index() {
@@ -63,5 +72,6 @@ class CompromissosController extends AppController {
     }
 
 }
+
 
 ?>
