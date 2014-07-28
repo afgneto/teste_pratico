@@ -779,3 +779,411 @@ Stack Trace:
 #4 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
 #5 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2014-07-28 01:00:48 Error: [MissingActionException] Action CompromissosController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'add',
+)
+Request URL: /teste_pratico/compromissos/add
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 02:00:03 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 29]
+2014-07-28 02:00:03 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 29, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 29, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:02:50 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 46]
+2014-07-28 02:02:50 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:04:02 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 54]
+2014-07-28 02:04:02 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:04:26 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 54]
+2014-07-28 02:04:26 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:04:29 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 54]
+2014-07-28 02:04:29 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:04:57 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 46]
+2014-07-28 02:04:57 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:04:59 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 46]
+2014-07-28 02:04:59 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:05:16 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 45]
+2014-07-28 02:05:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 45, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 45, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:05:18 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 45]
+2014-07-28 02:05:18 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 45, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 45, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:05:40 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 46]
+2014-07-28 02:05:40 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:05:42 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 46]
+2014-07-28 02:05:42 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 46, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:05:50 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 54]
+2014-07-28 02:05:50 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:05:52 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 54]
+2014-07-28 02:05:52 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:06:07 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 54]
+2014-07-28 02:06:07 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:06:09 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 54]
+2014-07-28 02:06:09 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:06:09 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 54]
+2014-07-28 02:06:09 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 54, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:06:18 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 68]
+2014-07-28 02:06:18 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 68, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 68, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:06:44 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 70]
+2014-07-28 02:06:44 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 70, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 70, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:06:54 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 86]
+2014-07-28 02:06:54 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 86, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 86, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:06:56 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 86]
+2014-07-28 02:06:56 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /teste_pratico/compromissos/
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 86, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 86, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:07:07 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp\www\teste_pratico\app\View\Compromissos\exibir.ctp, line 24]
+2014-07-28 02:07:07 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:07:09 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp\www\teste_pratico\app\View\Compromissos\exibir.ctp, line 24]
+2014-07-28 02:07:09 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:13:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\teste_pratico\app\Controller\CompromissosController.php, line 17]
+2014-07-28 02:13:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 17, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\tes...', 17, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:13:50 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp\www\teste_pratico\app\View\Compromissos\exibir.ctp, line 24]
+2014-07-28 02:13:50 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:14:54 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\teste_pratico\app\View\Compromissos\exibir.ctp, line 24]
+2014-07-28 02:14:54 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:14:57 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\teste_pratico\app\View\Compromissos\exibir.ctp, line 24]
+2014-07-28 02:14:57 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 24, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 02:21:29 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Compromissos\cadastrar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Compromissos\\cadastrar.ctp',
+)
+Request URL: /teste_pratico/compromissos/cadastrar
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 02:40:11 Error: [MissingActionException] Action CompromissosController::exibir() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'exibir',
+)
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 02:40:52 Error: [MissingActionException] Action CompromissosController::exibir() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'exibir',
+)
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 02:40:56 Error: [MissingActionException] Action CompromissosController::exibir() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'exibir',
+)
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 02:40:57 Error: [MissingActionException] Action CompromissosController::exibir() could not be found.
+Exception Attributes: array (
+  'controller' => 'CompromissosController',
+  'action' => 'exibir',
+)
+Request URL: /teste_pratico/compromissos/exibir
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#2 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 02:48:03 Error: [MissingViewException] View file "C:\wamp\www\teste_pratico\app\View\Compromissos\cadastrar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\teste_pratico\\app\\View\\Compromissos\\cadastrar.ctp',
+)
+Request URL: /teste_pratico/compromissos/cadastrar
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\teste_pratico\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\teste_pratico\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompromissosController), Object(CakeRequest))
+#4 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-28 03:49:15 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\wamp\www\teste_pratico\app\View\Compromissos\cadastrar.ctp, line 6]
+2014-07-28 03:49:15 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /teste_pratico/compromissos/cadastrar
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 04:05:11 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ')' in [C:\wamp\www\teste_pratico\app\View\Compromissos\cadastrar.ctp, line 6]
+2014-07-28 04:05:11 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ')'
+Request URL: /teste_pratico/compromissos/cadastrar
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 04:32:10 Error: [MissingControllerException] Controller class CompromissoController could not be found.
+Exception Attributes: array (
+  'class' => 'CompromissoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/compromisso
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-28 04:39:21 Error: Fatal Error (4): syntax error, unexpected '&' in [C:\wamp\www\teste_pratico\app\View\Compromissos\cadastrar.ctp, line 5]
+2014-07-28 04:39:21 Error: [FatalErrorException] syntax error, unexpected '&'
+Request URL: /teste_pratico/compromissos/cadastrar
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 5, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 5, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 04:39:23 Error: Fatal Error (4): syntax error, unexpected '&' in [C:\wamp\www\teste_pratico\app\View\Compromissos\cadastrar.ctp, line 5]
+2014-07-28 04:39:23 Error: [FatalErrorException] syntax error, unexpected '&'
+Request URL: /teste_pratico/compromissos/cadastrar
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 5, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 5, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 04:39:38 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\wamp\www\teste_pratico\app\View\Compromissos\cadastrar.ctp, line 6]
+2014-07-28 04:39:38 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /teste_pratico/compromissos/cadastrar
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 04:39:39 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\wamp\www\teste_pratico\app\View\Compromissos\cadastrar.ctp, line 6]
+2014-07-28 04:39:39 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /teste_pratico/compromissos/cadastrar
+Stack Trace:
+#0 C:\wamp\www\teste_pratico\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#2 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\tes...', 6, Array)
+#3 C:\wamp\www\teste_pratico\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

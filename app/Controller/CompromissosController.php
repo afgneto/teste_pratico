@@ -1,22 +1,67 @@
-<?php
+<?
+
 class CompromissosController extends AppController {
-	
-	var $scaffold; //Gerando CRUD Simples Com Scafffold
-	public $helpers = array("Form", "Html");
 
+    public $helpers = array("Form", "Html");
 
-	public function index() {
-   	$this->redirect('/compromissos/exibir');
-	}
+    public function index() {
+        $this->set("title", "Lista de Compromissos");
 
-	public function exibir(){
-	// Titulo da Pagina onde serão exibidos os compromissos
-	$this->set('title', 'Exibir Compromissos');
-	//Buscar todos os registros no BD atraves do metodo do Model Compromisso(find)
-	$compromissos = $this->Compromisso->find('all');
-	//enviando registro para o template
-	$this->set('compromissos', $compromissos);
-	}
+        $compromissos = $this->Compromisso->find('all');
+        $this->set('compromissos', $compromissos);
+    }
 
+    public function cadastrar() {
+        $this->set('title', 'Novo Compromisso');
+
+        if ($this->request->is("post")) {
+            $this->Compromisso->create();
+
+            if ($this->Compromisso->saveAssociated($this->request->data)) {
+                $this->Session->setFlash(__("Compromisso salvo com sucesso."));
+                $this->redirect(array("action" => '/index/'));
+            } else {
+                $this->Session->setFlash(__("Erro: não foi possível salvar o registro."));
+                $this->redirect(array("action" => '/cadastrar/'));
+            }
+        }
+    }
+
+    public function editar($id = NULL) {
+        $this->set("title", "Editar Compromisso");
+        $this->Compromisso->id = $id;
+        if (!$this->Compromisso->exists()) {
+            throw new NotFoundException(__('Compromisso não encontrado.'));
+        }
+
+        if ($this->request->is('post') || $this->request->is('put')) {
+            if ($this->Compromisso->saveAssociated($this->request->data)) {
+                $this->Session->setFlash(__('Compromisso Alterado com sucesso.'));
+                $this->redirect(array('action' => '/index/'));
+            } else {
+                $this->Session->setFlash(__('Erro: não foi possível alterar o Compromisso.'));
+            }
+        } else {
+            $this->request->data = $this->Compromisso->read(NULL, $id);
+        }
+    }
+
+    public function excluir($id = NULL) {
+        if (!$this->request->is('get')) {
+            throw new MethodNotAllowedException();
+        }
+        $this->Compromisso->id = $id;
+        if (!$this->Compromisso->exists()) {
+            throw new NotFoundException(__('Registro não encontrado.'));
+        }
+        if ($this->Usuario->delete()) {
+            $this->Session->setFlash(__('Compromisso excluído com sucesso.'));
+            $this->redirect(array('action' => '/index/'));
+        }
+        $this->Session->setFlash(__('Erro: não foi possível excluir o registro.'));
+        $this->redirect(array('action' => '/index/'));
+    }
 
 }
+
+?>
